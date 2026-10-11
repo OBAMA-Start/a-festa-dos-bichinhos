@@ -8,7 +8,7 @@ export default function Inicio({ onOpen }) {
     <main id="inicio">
       {tela === "menu" ? (
         <div className="menu-inicial">
-          <img src="./../../title-bichinhos.png" alt="A Festa dos Bichinhos" className="titulo-menu" />
+          <img src="/title-bichinhos.png" alt="A Festa dos Bichinhos" className="titulo-menu" />
           <div className="botoes-menu">
             <button className="botao-menu" onClick={() => setTela("iniciar")}>
               Iniciar
